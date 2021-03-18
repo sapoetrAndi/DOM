@@ -1,0 +1,121 @@
+/* pertemuan 1*/
+* document adalah isi dari website
+* di javascript function bisa berupa value dari properti
+
+/* pertemuan 2*/
+
+* document adalah node paling dasar dari sebuah file html
+
+* tipe tipe node 
+    - elemen
+    - text
+    - CData collection
+    - Entity reference
+    - Entity
+    - processing instruction
+    - comment
+    - document
+    - document type
+    - document fragment
+    - notation
+
+* nodeList adalah kumpulan sebuah node yang dipilih tanpa memperdulikan tipenya
+* HTMLCollection adalah kumpulan node yang bertipe elemen html saja
+
+* HTMLCollection vs nodeList
+    - keduanya merupakan kumpulan node
+    - struktur datanya mirip array
+    - nodeList dapat berisi apapun sedangkan HTMLCollection harus berisi elemen  HTMLCollection
+    - HTMLCollection bersifat live sedangkan nodeList tidak
+
+
+/* pertemuan 3*/
+
+DOM Selection Method part1
+
+    Method                              Return Value
+    - getElementById()          ->      Element
+    - getElementsByTagName()    ->      HTMLCollection
+    - getElementsByClassName()  ->      HTMLCollection
+    - querySelector()           ->      Element
+    - querySelectorAll()        ->      nodeList
+
+/* pertemuan 4*/
+
+
+
+/*pertemuan 5*/
+
+* manipulasi elemen
+    - element.innerHTML
+    - element.style.<property>
+    - element.setAttribute()
+    - element.getAttribute()
+    - element.removeAttribute()
+    - element.classList
+        -element.classList.add()
+        -element.classList.remove()
+        -element.classList.toggle()
+        -element.classList.item()
+        -element.classList.contains()
+        -element.classList.replace()
+    - dll.
+
+/*pertemuan 6*/
+
+* manipulasi node
+    - document.createElement()
+    - document.createTextNode()
+    - node.appendChild()
+    - node.insertBefore()
+    - parentNode.removeChild()
+    - parentNode.replace.Child()
+    - dll.
+
+* cara membuat/menambahkan elemen baru menggunakan manipulasi node
+    1. buat terlebih dahulu tag/Elementnya
+    2. buat isi dari elemen yang di inginkan
+    3. rangkai isi kedalam elemen yang di inginkan
+    4. tempatkan elemen yang di buat ketempat yang diinginkan
+
+
+/*pertemuan 7*/
+
+* 2 cara "mendengarkan" event
+    1. event handler
+        - inline HTML attribute
+        - element Method
+    2. addEventListener()
+
+* daftar event
+    - mouse event
+    - keyboard event
+    - resources event
+    - focus event
+    - view event
+    - form event
+    - css animation & transition event
+    - drag and drop event
+    - dll.
+
+
+/*pertemuan 10*/
+
+* DOM traversal / penelusuran DOM
+
+* DOM traversal Method            return Value
+    - parentNode                -> Node
+    - parentElement             -> Element
+    - nextElementSibling        -> Element
+    - previousElementSibling    -> Element
+
+
+/*pertemuan 11*/
+
+* prevent default adalah sebuah method yang berdada di dalam objek yang bertujuan untuk menghentikan aksi default dari sebuah elemen atau attribute
+    - preventDefault() //untuk mencegah aksi default.
+
+/*pertemuan 12*/
+
+* event bubbling adalah efek gelembung yang terjadi kepada element parent apabila kita memberikan sebuah event ke sebuah element
+- stopPropagation() // fungsi untuk meghentikan efek gelembung pada sebuah element
